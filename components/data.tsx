@@ -10,7 +10,7 @@ export default function Data() {
     if (error) {
         return (
             <p>
-                Data API endpoint is not available
+                Data API builder is not available
             </p>
         );
     }
@@ -18,7 +18,7 @@ export default function Data() {
     if (isLoading) {
         return (
             <p className="animate-bounce">
-                Checking if Data API builder endpoint is available...
+                Checking if Data API builder is available...
             </p>
         );
     }
